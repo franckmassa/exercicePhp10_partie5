@@ -13,7 +13,7 @@ $hautDeFrance = array('60' => 'Oise', '02' => 'Aisne',
         //Création d'une boucle pour récupérer toutes les valeurs du tableau et leurs clés
         foreach ($hautDeFrance as $number => $department) {
             ?>
-            <!--Affichage des départements avec leurs numéros
+            <!--Affichage des départements avec leurs numéros-->
           <p>Le Département <?= $department ?> a le numéro <?= $number ?></p>  
 <?php } ?>
     </body>
